@@ -4,7 +4,7 @@ using namespace std;
  
 int main() {
  
-    int A, B, NUMBER;
+          int A, B, NUMBER;
 	  double C, SALARY;
 	  cin >> A >> B;
 	  cin >> fixed >> setprecision(2) >> C;
