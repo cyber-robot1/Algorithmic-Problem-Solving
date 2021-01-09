@@ -4,7 +4,7 @@ using namespace std;
  
 int main() {
  
-  double pi = 3.14159, A, B, C, Area1, Area2, Area3, Area4, Area5;
+        double pi = 3.14159, A, B, C, Area1, Area2, Area3, Area4, Area5;
 	cin >> fixed >> setprecision(1) >> A >> B >> C;
 	Area1 = 0.5 * A * C;
 	Area2 = pi * C * C;
