@@ -4,7 +4,7 @@ using namespace std;
  
 int main() {
  
-  int a, b, c, max;
+        int a, b, c, max;
 	cin >> a >> b >> c;
 	max = (a + b + abs(a - b)) / 2;
 	max = (max + c + abs(max - c)) / 2;
