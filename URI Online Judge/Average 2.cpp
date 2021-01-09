@@ -2,7 +2,8 @@
 #include<iomanip>
 using namespace std;
 int main() {
-   double A, B, C, MEDIA;
+         
+         double A, B, C, MEDIA;
 	 cin >> fixed >> setprecision(1) >> A >> B >> C;
 	 A *= 2;
 	 B *= 3;
