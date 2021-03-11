@@ -1,5 +1,6 @@
 # ICPC-Assiut-University-Community
-Newcomers Problem Solving Training Sheets cover all topics related to the basics of any programming language.
+Newbies Algorithmic-Problem-Solving Training Sheets cover all topics related to the basics of any programming language.
+Here're my solutions of these problems.
 ## Topics: 
 -Data Types
 -Conditions
