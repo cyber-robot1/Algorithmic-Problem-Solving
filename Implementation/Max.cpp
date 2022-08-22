@@ -21,10 +21,9 @@ int main()
 {
 	int x, y, z;
 	cin >> x >> y >> z;
-  cout << Max(x,y,z);
+        cout << Max(x,y,z);
 		
 	
-	
-		return 0;
+	return 0;
 }
 
