@@ -2,6 +2,7 @@
 Author: Karim Tarek Ibrahim
 */
 // this is a function to calculate the LCM (Least Common Multiple) of two numbers and print it. 
+
 #include <iostream>
 using namespace std;
 int lcm(int x, int y)
