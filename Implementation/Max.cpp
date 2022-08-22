@@ -1,6 +1,6 @@
 /*
 Author: Karim Tarek Ibrahim
-This's a function of three parameters to determine the max among them.
+This's a function of three parameters to determine the maximum among them.
 */
 #include <iostream>
 using namespace std;
