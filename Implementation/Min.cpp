@@ -21,7 +21,7 @@ int main()
 {
 	int x, y, z;
 	cin >> x >> y >> z;
-  cout << Min(x,y,z);
+        cout << Min(x,y,z);
 		
 	
 	return 0;
