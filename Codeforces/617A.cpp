@@ -1,6 +1,7 @@
 /*
 Author: Karim Tarek Ibrahim
 */
+
 #include <iostream>
 using namespace std;
 
@@ -26,8 +27,6 @@ int main()
 	}
 	
 	
-	
-
 
     return 0;
 }
