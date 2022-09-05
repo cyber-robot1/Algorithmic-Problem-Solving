@@ -21,7 +21,7 @@ int reverse_num(int n)
 int main()
 {
 	
-  int x;
+        int x;
 	cin >> x;
 	cout << reverse_num(x);
 
