@@ -9,11 +9,11 @@ using namespace std;
 int Max(int a, int b, int c)
 {
 	int mx = 0;
-	if (a > b && a > c)
+	if (a >= b && a >= c)
 		mx = a;
-	else if (b > a && b > c)
+	else if (b >= a && b >= c)
 		mx = b;
-	else if (c > a && c > b)
+	else if (c >= a && c >= b)
 		mx = c;
 	return mx;
 }
