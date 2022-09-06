@@ -6,34 +6,31 @@ Author: Karim Tarek Ibrahim
 #include <iostream>
 using namespace std;
 
-bool isPrime(int n)
+void isPrime(int x)
 {
-	int c = 0;
-	bool flag = true;
-	if (n == 1 || n == 0)
-		flag = false;
+	int flag = 0;
+	if (x == 0 || x == 1)
+		cout << "Not Prime";
 	else
 	{
-		for (int i = 1; i <= n; i++)
+		for (int i = 1; i <= x; i++)
 		{
-			if (n % i == 0)
-				c++;
+			if (x % i == 0)
+				flag++;
 		}
-		if (c == 2)
-			flag = true;
+		if (flag == 2)
+			cout << "Prime";
 		else
-			flag = false;
+			cout << "Not Prime";
 	}
-	return flag;
 }
 
 int main()
 {
-	
-	int n;
-	cin >> n;
-	cout << isPrime(n);         // prints 1 (true) if it's a prime num, prints 0 (false) if it isn't a prime num.
-	
+	int a;
+	cin >> a;
+	isPrime(a);
 
 	return 0;
 }
+
