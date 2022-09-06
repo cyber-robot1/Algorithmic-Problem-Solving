@@ -1,7 +1,7 @@
 /*
 Author: Karim Tarek Ibrahim
 */
-// This is a function to delete a n-th digit from a given number.
+// This is a function to delete a n-th digit from a given number, and this number mustn't be 10 | 100 | 1000 | 10000 and so on..
 
 #include <iostream>
 using namespace std;
