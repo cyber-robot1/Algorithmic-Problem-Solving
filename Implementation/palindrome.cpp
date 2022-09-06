@@ -9,11 +9,12 @@ using namespace std;
 
 int reverse_num(int n)
 {
-	int rev_n = 0;                       // rev_n = reverse of n.
-	for (int i = 0; n != 0; i++)
+	int rev_n = 0, num;                 // rev_n = reverse of n.
+	num = n;
+	for (int i = 0; num != 0; i++)
 	{
-		int digit = n % 10;
-		n = n / 10;
+		int digit = num % 10;
+		num = num / 10;
 		rev_n = (rev_n * 10) + digit;
 	}
 	return rev_n;
