@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 	
-  int N, Z, X, min = 0, flag = 1, c = 0;
+        int N, Z, X, min = 0, flag = 1, c = 0;
 	cin >> N >> Z;
 	for (int i = 1; i <= N; i++)
 	{
