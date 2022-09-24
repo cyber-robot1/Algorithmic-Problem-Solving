@@ -3,7 +3,7 @@ Author: Karim Tarek Ibrahim
 Problem link: https://www.hackerrank.com/challenges/the-birthday-bar/problem
 */
 
-#include <iostream>
+#include <bits/stdc++.h> 
 using namespace std;
 
 int birthday(int s[], int n, int d, int m) {
