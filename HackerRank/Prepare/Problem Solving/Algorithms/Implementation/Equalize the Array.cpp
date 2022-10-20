@@ -49,14 +49,6 @@ int MaxinFreqArray(int arr[], int n)
     return mx;
 }
 
-int SizeFreqArray(int arr[], int n)
-{
-    int mx = MaxinArray(arr, n);
-    int mn = MininArray(arr, n);
-    int m = (mx - mn) + 1;
-    return m;
-}
-
 int equalizeArray(int arr[], int n) {
     int mx=MaxinFreqArray(arr, n);        // max element in frequency array.
     int output=n-mx;
