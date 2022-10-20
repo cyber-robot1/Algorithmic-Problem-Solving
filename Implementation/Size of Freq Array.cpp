@@ -1,7 +1,7 @@
 /*
 Author: Karim Tarek Ibrahim
 */
-// This is a function to get the maximum element in the frequency array of a given array.
+// This is a function to get the size of a frequency array of a given array.
 
 #include <bits/stdc++.h>
 using namespace std;
