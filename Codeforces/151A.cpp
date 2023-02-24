@@ -1,5 +1,8 @@
 /*
 Author: Karim Tarek Ibrahim
+Problem name: Soft Drinking
+Problem link: https://codeforces.com/problemset/problem/151/A
+Date: 8/8/2022
 */
 
 #include <iostream>
