@@ -25,6 +25,5 @@ int main()
     }
     cout << stewards;
  
- 
     return 0;
 }
