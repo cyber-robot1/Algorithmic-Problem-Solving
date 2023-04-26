@@ -9,6 +9,7 @@ Date: 26/4/2023
 #include <algorithm>
 using namespace std;
  
+// Function to check if all elements on array are equal
 bool EqualArr(int n, int arr[])
 {
     bool flag = true;
