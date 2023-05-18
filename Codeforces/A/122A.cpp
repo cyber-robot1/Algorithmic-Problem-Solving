@@ -7,7 +7,8 @@ Date: 18/5/2023
 
 #include <iostream>
 using namespace std;
- 
+
+// function to calculate No. of digits in a given number
 int numDigits(int n)
 {
 	int c = 0, temp;
@@ -19,7 +20,7 @@ int numDigits(int n)
 	}
 	return c;
 }
- 
+
 int main()
 {
 	
@@ -30,48 +31,50 @@ int main()
 		cout << "YES";
 	else
 	{
-		if (numDigits(n) == 1)
+		if (numDigits(n) == 1)                // one-digit given number
 		{
 			if (n % 4 == 0 || n % 7 == 0)
 				flag = true;
- 
+
 			else
 				flag = false;
 		}
-		else if (numDigits(n) == 2)
+
+		else if (numDigits(n) == 2)          // two-digits given number
 		{
 			if (n % 44 == 0 || n % 47 == 0 || n % 74 == 0 || n % 77 == 0)
 				flag = true;
- 
+
 			else if (n % 4 == 0 || n % 7 == 0)
 				flag = true;
- 
+
 			else
 				flag = false;
 		}
-		else if (numDigits(n) == 3)
+
+		else if (numDigits(n) == 3)        // three-digits given number
 		{
 			if (n % 444 == 0 || n % 447 == 0 || n % 474 == 0 || n % 477 == 0)
 				flag = true;
- 
+
 			else if (n % 744 == 0 || n % 747 == 0 || n % 774 == 0 || n % 777 == 0)
 				flag = true;
- 
+
 			else if (n % 44 == 0 || n % 47 == 0 || n % 74 == 0 || n % 77 == 0)
 				flag = true;
- 
+
 			else if (n % 4 == 0 || n % 7 == 0)
 				flag = true;
- 
+
 			else
 				flag = false;
 		}
+
 		if (flag)
 			cout << "YES";
 		else
 			cout << "NO";
 	}
- 
- 
+
 	return 0;
 }
