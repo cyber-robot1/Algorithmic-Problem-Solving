@@ -8,7 +8,7 @@ Date: 3/6/2023
 #include <iostream>
 #include <cmath>
 using namespace std;
- 
+
 char s[101];
 int main()
 {
@@ -18,7 +18,8 @@ int main()
 	int len = S.length();
 	for (int i = 0; i < S.length(); i++)
 		s[i] = S[i];
- 
+
+	// No. of consecutive C groups
 	int memC = 0, groupC = 0;
 	for (int i = 0; i < len; i++)
 	{
@@ -35,6 +36,7 @@ int main()
 		}
 	}
 	
+	// No. of consecutive P groups
 	int memP = 0, groupP = 0;
 	for (int i = 0; i < len; i++)
 	{
@@ -52,6 +54,6 @@ int main()
 	}
 	
 	cout << groupC + groupP;
- 
+
 	return 0;
 }
