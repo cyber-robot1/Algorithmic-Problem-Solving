@@ -23,6 +23,7 @@ int main()
 		cin >> s;
 		sort(s.begin(), s.end());
 
+		// Checking if the characters in given string are consecutive or not
 		for (int i = 0, j = s[0]; i < s.size(); i++, j++)
 		{
 			if (s[i] == (char)j)
@@ -37,6 +38,7 @@ int main()
 		for (int i = 0; i < s.size(); i++)
 			freq[s[i]]++;
 
+		// Checking if the characters in the given string are distinct or not
 		for (int i = s[0]; i <= s[s.size() - 1]; i++)
 		{
 			if (freq[i] > 1)
@@ -54,8 +56,8 @@ int main()
 
 		for (int i = s[0]; i <= s[s.size() - 1]; i++)
 			freq[i] = 0;
-
-	}	
+	}
+	
 
 	return 0;
 }
