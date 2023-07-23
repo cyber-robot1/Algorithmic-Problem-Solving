@@ -53,11 +53,9 @@ int main()
 		else
 			cout << "NO" << endl;
 
-
 		for (int i = s[0]; i <= s[s.size() - 1]; i++)
 			freq[i] = 0;
 	}
-	
 
 	return 0;
 }
