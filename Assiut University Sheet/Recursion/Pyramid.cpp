@@ -20,15 +20,12 @@ void f(int n)
  
 	if (n > tmp1)
 		return;
-    
 	else
 	{
 		for (int j = tmp3 - 1; j > 0; j--)
 			cout << " ";
-    
 		for (int j = 1; j <= tmp2; j++)
 			cout << "*";
-    
 		cout << endl;
 		tmp3--;
 		tmp2 += 2;
