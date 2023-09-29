@@ -11,7 +11,7 @@ void f(int n)
 	if (flag)
 	{
 		if (n == 0)
-			cout << "0";
+			cout << 0;
 		flag = false;
 	}
 	if (n == 0)
