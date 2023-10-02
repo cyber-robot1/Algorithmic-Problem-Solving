@@ -4,8 +4,9 @@ Author: Karim Tarek Ibrahim
 
 #include <iostream>
 using namespace std;
- 
 int A[101][101], B[101][101], C[101][101];
+
+// Recursive function to sum two matrices and store result in a third one.
 void f(int row, int col, int r, int c)
 {
 	if (c == col - 1)
@@ -23,7 +24,8 @@ void f(int row, int col, int r, int c)
 		f(row, col, r, c + 1);
 	}
 }
- 
+
+// Recursive function to print a given matrix.
 void print(int row, int col, int r, int c)
 {
 	if (c == col - 1)
@@ -42,7 +44,7 @@ void print(int row, int col, int r, int c)
 		print(row, col, r, c + 1);
 	}
 }
- 
+
 int main()
 {
 	
@@ -58,9 +60,9 @@ int main()
 		for (int j = 0; j < m; j++)
 			cin >> B[i][j];
 	}
- 
+
 	f(n, m, 0, 0);
 	print(n, m, 0, 0);
- 
+
 	return 0;
 }
