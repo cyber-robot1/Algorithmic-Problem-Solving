@@ -1,6 +1,8 @@
 # Assiut University Training
 This repo contains my solutions to a couple of algorithmic problems for newcomers.
 
-<a href="https://codeforces.com/group/MWSDmqGsZm/contests"><img src="download.png"></img> </a>
+![download](https://github.com/cyber-robot1/Algorithmic-Problem-Solving/assets/76911827/a78016d3-fe9c-463a-8479-a741b6797fa2)
 
-link: https://codeforces.com/group/MWSDmqGsZm/contests
+### [ 👆 Sheets link 👆](https://codeforces.com/group/MWSDmqGsZm/contests)
+
+
