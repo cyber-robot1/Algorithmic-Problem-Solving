@@ -15,7 +15,7 @@ int main()
 	bool flag = true;
 	int c4 = 0;
 	
-	for (int i = 0; i < s.size(); i++)
+	for (long long int i = 0; i < s.size(); i++)
 	{
 		if (s[0] != '1')
 		{
