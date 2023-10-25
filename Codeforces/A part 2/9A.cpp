@@ -15,7 +15,6 @@ int main()
 	A = max(A, B);
 	A = (6 - A) + 1;
 	B = 6;
- 
 	if (A == 4)
 		cout << 2 << "/" << 3;
 	else
@@ -26,7 +25,6 @@ int main()
 			A /= A;
 		}
 		cout << A << "/" << B;
-	}
-  
+	} 
 	return 0;
 }
