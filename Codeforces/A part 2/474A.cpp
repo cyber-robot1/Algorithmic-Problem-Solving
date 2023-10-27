@@ -11,41 +11,19 @@ using namespace std;
 char answer[101];
 int main()
 {
-	string s1 = "qwertyuiop", s2 = "asdfghjkl;", s3 = "zxcvbnm,./", str;
+	string str, s = "qwertyuiopasdfghjkl;zxcvbnm,./";
 	char ch;
 	cin >> ch >> str;
 	for (int i = 0; i < str.size(); i++)
 	{
-		for (int j = 0; j < s1.size(); j++)
+		for (int j = 0; j < 30; j++)
 		{
-			if (str[i] == s1[j])
+			if (str[i] == s[j])
 			{
 				if (ch == 'R')
-					answer[i] = s1[j - 1];
+					answer[i] = s[j - 1];
 				else
-					answer[i] = s1[j + 1];
-			}
-		}
- 
-		for (int j = 0; j < s2.size(); j++)
-		{
-			if (str[i] == s2[j])
-			{
-				if (ch == 'R')
-					answer[i] = s2[j - 1];
-				else
-					answer[i] = s2[j + 1];
-			}
-		}
- 
-		for (int j = 0; j < s3.size(); j++)
-		{
-			if (str[i] == s3[j])
-			{
-				if (ch == 'R')
-					answer[i] = s3[j - 1];
-				else
-					answer[i] = s3[j + 1];
+					answer[i] = s[j + 1];
 			}
 		}
 	}
